@@ -1,0 +1,14 @@
+{
+	"name": "v2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass sass/main.scss dist/css/main.css -w"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
