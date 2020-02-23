@@ -1,1 +1,65 @@
+.form {
+	h1 {
+		margin-top: 1.5rem;
+		font-size: 4.3rem;
+		padding: 3rem 0;
+	}
 
+	p {
+		padding-bottom: 1rem;
+	}
+
+	form {
+		font-size: 1.6rem;
+
+		.form-group {
+			padding-bottom: 1.5rem;
+
+			label {
+				display: block;
+				padding-bottom: 0.8rem;
+			}
+
+			input,
+			textarea {
+				width: 100%;
+				padding: 0.8rem;
+			}
+			input:focus,
+			textarea:focus {
+				border-color: #f7c08a;
+				outline: none;
+			}
+		}
+
+		#form-btn {
+			margin: 1rem 0;
+		}
+
+		#form-btn:hover {
+			background: #f7c08a;
+			color: #333;
+		}
+	}
+}
+
+.contact-icons {
+	margin-top: 2rem;
+
+	.box {
+		text-align: center;
+		float: left;
+		width: 33.3333%;
+		height: 100%;
+		padding: 4.5rem;
+	}
+
+	i {
+		padding-bottom: 1rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+}

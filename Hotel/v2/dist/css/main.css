@@ -103,9 +103,10 @@ p {
 
 .about-info {
   height: 35rem;
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  color: #333; }
   .about-info__content {
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     float: left;
     width: 50%; }
     .about-info__content h1 {
@@ -141,6 +142,49 @@ p {
       width: 10rem;
       border-radius: 50%;
       margin-right: 1.5rem; }
+
+.form h1 {
+  margin-top: 1.5rem;
+  font-size: 4.3rem;
+  padding: 3rem 0; }
+
+.form p {
+  padding-bottom: 1rem; }
+
+.form form {
+  font-size: 1.6rem; }
+  .form form .form-group {
+    padding-bottom: 1.5rem; }
+    .form form .form-group label {
+      display: block;
+      padding-bottom: 0.8rem; }
+    .form form .form-group input,
+    .form form .form-group textarea {
+      width: 100%;
+      padding: 0.8rem; }
+    .form form .form-group input:focus,
+    .form form .form-group textarea:focus {
+      border-color: #f7c08a;
+      outline: none; }
+  .form form #form-btn {
+    margin: 1rem 0; }
+  .form form #form-btn:hover {
+    background: #f7c08a;
+    color: #333; }
+
+.contact-icons {
+  margin-top: 2rem; }
+  .contact-icons .box {
+    text-align: center;
+    float: left;
+    width: 33.3333%;
+    height: 100%;
+    padding: 4.5rem; }
+  .contact-icons i {
+    padding-bottom: 1rem; }
+  .contact-icons h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem; }
 
 .container {
   margin: auto;
