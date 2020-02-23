@@ -1,0 +1,33 @@
+.nav {
+	background: #333;
+	font-size: 1.6rem;
+	overflow: auto;
+
+	&__logo {
+		color: #fff;
+		padding: 2rem 0;
+		float: left;
+		font-size: 2.4rem;
+	}
+
+	&__links {
+		float: right;
+		list-style: none;
+
+		li {
+			float: left;
+		}
+
+		a:hover {
+			background: #444;
+			color: #f7c08a;
+		}
+
+		&__link {
+			display: block;
+			color: #fff;
+			padding: 2rem;
+			text-align: center;
+		}
+	}
+}
