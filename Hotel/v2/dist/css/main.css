@@ -101,6 +101,47 @@ p {
     padding: 2rem;
     margin: 0; }
 
+.about-info {
+  height: 35rem;
+  padding: 3rem 0; }
+  .about-info__content {
+    padding: 3rem 1rem;
+    float: left;
+    width: 50%; }
+    .about-info__content h1 {
+      font-size: 4rem;
+      padding-bottom: 2rem; }
+  .about-info__img {
+    float: right;
+    width: 50%;
+    height: 100%; }
+    .about-info__img img {
+      display: block;
+      border-radius: 50%;
+      width: 70%;
+      margin: auto; }
+
+.testimonial {
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  height: 50rem;
+  padding: 4rem; }
+  .testimonial h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    padding: 4rem 0; }
+  .testimonial__info {
+    border-radius: 5px;
+    padding: 2rem;
+    background: #f7c08a;
+    opacity: 0.9;
+    margin-bottom: 3rem; }
+    .testimonial__info img {
+      float: left;
+      width: 10rem;
+      border-radius: 50%;
+      margin-right: 1.5rem; }
+
 .container {
   margin: auto;
   max-width: 110rem;
