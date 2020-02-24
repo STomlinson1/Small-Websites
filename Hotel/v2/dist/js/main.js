@@ -1,6 +1,6 @@
 const nav = document.createElement('div');
 nav.innerHTML = `
-<h1 class="nav__logo">HBT</h1>
+<h1 id="logo" class="nav__logo">HBT</h1>
 <ul class="nav__links">
   <li><a class="nav__links__link" href="index.html">Home</a></li>
   <li><a class="nav__links__link" href="about.html">About</a></li>

@@ -25,7 +25,7 @@
 }
 
 .info {
-	height: 40rem;
+	height: 42rem;
 
 	&__img {
 		float: left;
@@ -39,7 +39,7 @@
 		height: 100%;
 		width: 50%;
 		text-align: center;
-		padding: 7rem 3rem;
+		padding: 9rem 3rem;
 
 		h1 {
 			font-size: 2.4rem;
@@ -55,9 +55,9 @@
 
 .icons {
 	text-align: center;
-	height: 25rem;
 
 	.box {
+		height: 25rem;
 		float: left;
 		width: 33.3333%;
 		height: 100%;

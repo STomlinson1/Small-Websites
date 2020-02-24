@@ -60,7 +60,7 @@ p {
       margin: 1rem 0; }
 
 .info {
-  height: 40rem; }
+  height: 42rem; }
   .info__img {
     float: left;
     height: 100%;
@@ -71,7 +71,7 @@ p {
     height: 100%;
     width: 50%;
     text-align: center;
-    padding: 7rem 3rem; }
+    padding: 9rem 3rem; }
     .info__content h1 {
       font-size: 2.4rem;
       margin-bottom: 3rem; }
@@ -80,9 +80,9 @@ p {
       padding-bottom: 3rem; }
 
 .icons {
-  text-align: center;
-  height: 25rem; }
+  text-align: center; }
   .icons .box {
+    height: 25rem;
     float: left;
     width: 33.3333%;
     height: 100%;
@@ -235,3 +235,22 @@ p {
 .bg-light {
   background: #f4f4f4;
   color: #333; }
+
+@media (max-width: 768px) {
+  #navbar #logo {
+    float: none;
+    text-align: center; }
+  #navbar ul,
+  #navbar li {
+    float: none; }
+  #navbar .nav__links__link {
+    padding: 0.5rem;
+    border-bottom: #444 dotted 0.1rem; }
+  .info__img {
+    display: none; }
+  .info__content {
+    float: none;
+    width: 100%; }
+  .icons .box {
+    float: none;
+    width: 100%; } }

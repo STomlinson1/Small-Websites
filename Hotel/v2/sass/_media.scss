@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+	#navbar {
+		#logo {
+			float: none;
+			text-align: center;
+		}
+
+		ul,
+		li {
+			float: none;
+		}
+
+		.nav__links__link {
+			padding: 0.5rem;
+			border-bottom: #444 dotted 0.1rem;
+		}
+	}
+
+	.info {
+		&__img {
+			display: none;
+		}
+
+		&__content {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	.icons {
+		.box {
+			float: none;
+			width: 100%;
+		}
+	}
+}
