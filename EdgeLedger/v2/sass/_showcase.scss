@@ -1,0 +1,25 @@
+#showcase {
+	height: 100vh;
+	background: url('../imgs/showcase.jpg') no-repeat center center/cover;
+
+	.showcase__content {
+		height: 100%;
+		display: flex;
+		color: $color-white;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		h1 {
+			font-size: 6rem;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 2rem;
+			padding: 1rem;
+		}
+	}
+}
