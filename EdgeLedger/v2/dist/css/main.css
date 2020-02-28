@@ -78,11 +78,19 @@ a {
   padding: 1rem 3rem;
   border: none;
   border-radius: 5px; }
+  .btn:hover {
+    cursor: pointer; }
 
 .btn-primary {
   color: #fff;
   background: #d72323; }
   .btn-primary:hover {
+    background: #791111; }
+
+.btn-dark {
+  background: #333;
+  color: #fff; }
+  .btn-dark:hover {
     background: #791111; }
 
 .bg-dark {
@@ -92,6 +100,10 @@ a {
 .bg-light {
   background: #f4f4f4;
   color: #333; }
+
+.bg-primary {
+  background: #d72323;
+  color: #fff; }
 
 #nav {
   color: #fff;
@@ -155,3 +167,48 @@ a {
         background-color: #d72323;
         border-radius: 50%;
         padding: 1.3rem; }
+
+#who {
+  display: flex; }
+  #who .img {
+    flex: 1;
+    background: url("../imgs/people.jpg") no-repeat center center/cover; }
+  #who .content {
+    flex: 1; }
+    #who .content h3 {
+      font-size: 2.7rem; }
+    #who .content p {
+      font-size: 1.7rem; }
+    #who .content h4 {
+      font-size: 1.9rem;
+      padding: 0.5rem 0; }
+    #who .content ul {
+      font-size: 1.7rem; }
+      #who .content ul li {
+        padding: 1rem 0;
+        border-bottom: 1px dotted #fff; }
+
+#clients {
+  display: flex; }
+  #clients .contact {
+    flex: 1; }
+    #clients .contact form {
+      padding: 0 1rem; }
+      #clients .contact form .form-group {
+        font-size: 1.6rem;
+        padding: 1rem 0; }
+        #clients .contact form .form-group label {
+          display: block; }
+        #clients .contact form .form-group textarea {
+          height: 10rem; }
+        #clients .contact form .form-group input,
+        #clients .contact form .form-group textarea {
+          font-size: 1.4rem;
+          padding: 0.5rem;
+          width: 100%; }
+      #clients .contact form .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.7rem; }
+  #clients .map {
+    flex: 2; }

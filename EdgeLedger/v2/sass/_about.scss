@@ -27,3 +27,82 @@
 		}
 	}
 }
+
+#who {
+	display: flex;
+
+	.img {
+		flex: 1;
+		background: url('../imgs/people.jpg') no-repeat center center/cover;
+	}
+
+	.content {
+		flex: 1;
+
+		h3 {
+			font-size: 2.7rem;
+		}
+
+		p {
+			font-size: 1.7rem;
+		}
+
+		h4 {
+			font-size: 1.9rem;
+			padding: 0.5rem 0;
+		}
+
+		ul {
+			font-size: 1.7rem;
+
+			li {
+				padding: 1rem 0;
+				border-bottom: 1px dotted $color-white;
+			}
+		}
+	}
+}
+
+#clients {
+	display: flex;
+	.contact {
+		flex: 1;
+
+		form {
+			padding: 0 1rem;
+
+			.form-group {
+				font-size: 1.6rem;
+				padding: 1rem 0;
+
+				label {
+					display: block;
+				}
+
+				input {
+				}
+
+				textarea {
+					height: 10rem;
+				}
+
+				input,
+				textarea {
+					font-size: 1.4rem;
+					padding: 0.5rem;
+					width: 100%;
+				}
+			}
+
+			.btn {
+				width: 100%;
+				margin: 0.5rem 0;
+				padding: 0.7rem;
+			}
+		}
+	}
+
+	.map {
+		flex: 2;
+	}
+}
