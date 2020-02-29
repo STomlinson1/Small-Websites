@@ -1,5 +1,8 @@
-// opacity to nav
+sal();
 const nav = document.querySelector('#nav');
+const form = document.querySelector('#form');
+
+// opacity to nav
 window.addEventListener('scroll', () => {
 	if (window.scrollY > 150) {
 		nav.style.opacity = 0.9;
@@ -9,13 +12,11 @@ window.addEventListener('scroll', () => {
 });
 
 // form validation
-const form = document.querySelector('#form');
-
 form.addEventListener('submit', (event) => {
 	event.preventDefault();
-	console.log('Button Clicked');
 });
 
+//Google Map
 function initMap() {
 	// The location of Uluru
 	let location = { lat: 40.756457, lng: -73.990184 };
