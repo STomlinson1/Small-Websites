@@ -183,14 +183,19 @@
     const whoBtn = document.querySelector('#whoBtn');
     const contactBtn = document.querySelector('#contactBtn');
 
+    const jumpConfig = {
+      duration: 1200,
+      offset: -62
+    }
+
     homeBtn.addEventListener('click', () => {
 	  jump('#home');
   });
     whatBtn.addEventListener('click', () => {
-	  jump('#what');
+	  jump('#what',jumpConfig);
   });
     whoBtn.addEventListener('click', () => {
-	  jump('#who');
+	  jump('#who', jumpConfig);
   });
     contactBtn.addEventListener('click', () => {
 	  jump('#contact');
