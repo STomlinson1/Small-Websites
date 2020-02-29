@@ -188,27 +188,48 @@ a {
         padding: 1rem 0;
         border-bottom: 1px dotted #fff; }
 
-#clients {
+#clients .container {
+  display: flex;
+  flex-direction: column; }
+  #clients .container h3 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem; }
+  #clients .container .items {
+    display: flex;
+    justify-content: space-evenly; }
+    #clients .container .items img {
+      margin: auto;
+      display: block;
+      width: 50%; }
+
+#contact {
   display: flex; }
-  #clients .contact {
+  #contact .contact {
     flex: 1; }
-    #clients .contact form {
+    #contact .contact form {
       padding: 0 1rem; }
-      #clients .contact form .form-group {
-        font-size: 1.6rem;
+      #contact .contact form .form-group {
+        font-size: 1.7rem;
         padding: 1rem 0; }
-        #clients .contact form .form-group label {
+        #contact .contact form .form-group label {
           display: block; }
-        #clients .contact form .form-group textarea {
+        #contact .contact form .form-group input:focus {
+          outline: none; }
+        #contact .contact form .form-group textarea {
           height: 10rem; }
-        #clients .contact form .form-group input,
-        #clients .contact form .form-group textarea {
-          font-size: 1.4rem;
-          padding: 0.5rem;
+          #contact .contact form .form-group textarea:focus {
+            outline: none; }
+        #contact .contact form .form-group input,
+        #contact .contact form .form-group textarea {
+          font-size: 1.6rem;
+          padding: 0.7rem;
           width: 100%; }
-      #clients .contact form .btn {
+      #contact .contact form .btn {
         width: 100%;
         margin: 0.5rem 0;
         padding: 0.7rem; }
-  #clients .map {
+  #contact .map {
     flex: 2; }
+
+.footer h4 {
+  font-size: 1.3rem; }

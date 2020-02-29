@@ -64,6 +64,29 @@
 }
 
 #clients {
+	.container {
+		display: flex;
+		flex-direction: column;
+
+		h3 {
+			font-size: 3rem;
+			padding-bottom: 1.5rem;
+		}
+
+		.items {
+			display: flex;
+			justify-content: space-evenly;
+
+			img {
+				margin: auto;
+				display: block;
+				width: 50%;
+			}
+		}
+	}
+}
+
+#contact {
 	display: flex;
 	.contact {
 		flex: 1;
@@ -72,24 +95,28 @@
 			padding: 0 1rem;
 
 			.form-group {
-				font-size: 1.6rem;
+				font-size: 1.7rem;
 				padding: 1rem 0;
 
 				label {
 					display: block;
 				}
 
-				input {
+				input:focus {
+					outline: none;
 				}
 
 				textarea {
 					height: 10rem;
+					&:focus {
+						outline: none;
+					}
 				}
 
 				input,
 				textarea {
-					font-size: 1.4rem;
-					padding: 0.5rem;
+					font-size: 1.6rem;
+					padding: 0.7rem;
 					width: 100%;
 				}
 			}
@@ -104,5 +131,11 @@
 
 	.map {
 		flex: 2;
+	}
+}
+
+.footer {
+	h4 {
+		font-size: 1.3rem;
 	}
 }
