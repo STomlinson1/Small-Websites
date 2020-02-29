@@ -17,10 +17,10 @@
         <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
       </h1>
       <ul class="nav__links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#what">What</a></li>
-        <li><a href="#who">Who</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a id="homeBtn" href="#">Home</a></li>
+        <li><a id="whatBtn" href="#">What</a></li>
+        <li><a id="whoBtn" href="#">Who</a></li>
+        <li><a id="contactBtn" href="#">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -176,6 +176,26 @@
   </footer>
 
   <script src="../node_modules/sal.js/dist/sal.js"></script>
+  <script type="module">
+    import jump from '../../node_modules/jump.js/dist/jump.module.js';
+    const homeBtn = document.querySelector('#homeBtn');
+    const whatBtn = document.querySelector('#whatBtn');
+    const whoBtn = document.querySelector('#whoBtn');
+    const contactBtn = document.querySelector('#contactBtn');
+
+    homeBtn.addEventListener('click', () => {
+	  jump('#home');
+  });
+    whatBtn.addEventListener('click', () => {
+	  jump('#what');
+  });
+    whoBtn.addEventListener('click', () => {
+	  jump('#who');
+  });
+    contactBtn.addEventListener('click', () => {
+	  jump('#contact');
+  });
+  </script>
   <script src="js/main.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpPI5nOQ8TDZciktuyRpY9JlHJf3_qXYI&callback=initMap"
     async defer></script>

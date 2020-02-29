@@ -1,4 +1,6 @@
+//init animation lib
 sal();
+
 const nav = document.querySelector('#nav');
 const form = document.querySelector('#form');
 
