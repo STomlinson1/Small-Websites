@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+}
+
+.box {
+	padding: 1rem;
+	margin: 1rem;
+	background: coral;
+	color: white;
+	width: 30%;
+	/* offset-x | offset-y | color */
+	box-shadow: 10px 10px teal;
+	/* offset-x | offset-y | blur-radius| color */
+	box-shadow: 5px 5px 20px teal;
+	/* offset-x | offset-y | blur-radius| spread-radous | color */
+	box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+	/* inset |offset-x | offset-y | color */
+	box-shadow: inset 3px 3px teal;
+}
