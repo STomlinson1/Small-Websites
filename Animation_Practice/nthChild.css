@@ -11,3 +11,26 @@ li:first-child {
 li:last-child {
 	background: #f00;
 }
+
+/* Position 3 */
+li:nth-child(3) {
+	background: #00f;
+}
+
+/* Every 3 */
+li:nth-child((3n+0)) {
+	background: #0ff;
+}
+
+/* Every 3 after 7 */
+li:nth-child(3n + 7) {
+	background: #0f0;
+}
+
+li:nth-child(odd) {
+	background: #333;
+}
+
+li:nth-child(even) {
+	background: #666;
+}
