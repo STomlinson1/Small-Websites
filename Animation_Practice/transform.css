@@ -1,0 +1,25 @@
+body {
+	background: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.box {
+	background: #fff;
+	height: 300px;
+	width: 300px;
+	/* transform: rotate(25deg); */
+	/* transform: skew(25deg); */
+	/* transform: scale(2); */
+	transition: all 1s ease-in-out;
+}
+
+.box:hover {
+	/* transform: rotate(180deg); */
+	/* transform: translateY(-100px);
+  transform: translateX(100px); */
+	transform: translate(100px, 100px);
+}
