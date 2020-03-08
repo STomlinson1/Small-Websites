@@ -1,0 +1,13 @@
+li {
+	padding: 0.25rem;
+	margin: 0.25rem;
+	list-style: none;
+}
+
+li:first-child {
+	background: #f00;
+}
+
+li:last-child {
+	background: #f00;
+}

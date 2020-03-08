@@ -1,0 +1,23 @@
+/* direct child */
+div > p {
+	background: #444;
+}
+
+/* Directly After (next sibling) */
+div + p {
+	background: #f0a;
+}
+
+/* By attribute */
+a[target] {
+	background: #f20;
+	color: #fff;
+}
+
+/* Specific attribute values
+Used often with forms */
+input[type='text'],
+input[type='email'] {
+	width: 100%;
+	margin-bottom: 5px;
+}
